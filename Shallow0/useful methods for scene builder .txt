@@ -1,0 +1,2 @@
+useful methods for scene builder : 
+button -> properties -> focuseTraversable : кнопка сохраняет свой цвет после нажатия и не становится серой
