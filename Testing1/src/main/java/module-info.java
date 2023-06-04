@@ -1,4 +1,4 @@
-module shallow.shallow {
+module home.testing1 {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
@@ -8,8 +8,9 @@ module shallow.shallow {
     requires net.synedra.validatorfx;
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
+    requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens helper.home to javafx.fxml;
-    exports helper.home;
+    opens home.testing1 to javafx.fxml;
+    exports home.testing1;
 }
